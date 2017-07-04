@@ -1,0 +1,17 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.mathBtn, #submit-btn {
+	width: 40px;
+	height: 40px;
+	background-color: #3560a5;
+	font-size: 1.5em;
+	border: 1.5px solid white;
+	color: white;
+}
+
+.highlight {
+	background-color: lightgreen;
+}

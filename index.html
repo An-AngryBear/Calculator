@@ -6,18 +6,20 @@
 		<link rel="stylesheet" type="text/css" href="main.css">
 	</head>
 	<body>
+		<h1>Basic Calculator</h1>
+		<h3>Place two numbers in the fields provided and choose a math operation.</h3>
 		<div id="input-wrapper">
 			<input type="number" id="value1" name="entry-field">
 			<input type="number" id="value2" name="entry-field">
 		</div>
 		<div id="math-wrapper">
-			<input type="button" id="addition" name="calc" value="+">
-			<input type="button" id="subtraction" name="calc" value="-">
-			<input type="button" id="multiplication"name="calc" value="x">
-			<input type="button" id="division" name="calc" value="/">
+			<input type="button" class="mathBtn" id="addition" name="calc" value="+">
+			<input type="button" class="mathBtn" id="subtraction" name="calc" value="-">
+			<input type="button" class="mathBtn" id="multiplication" name="calc" value="×">
+			<input type="button" class="mathBtn" id="division" name="calc" value="÷">
 		</div>
-		<input type="button" id="enter-btn" name="calc" value="=">
-
+		<input type="button" id="submit-btn" name="calc" value="=">
+		<div id="output"></div>
 		<script src="calculator.js"></script>
 	</body>
 </html>
